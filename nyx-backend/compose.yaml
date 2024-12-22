@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      context: .
+      target: dev
+    environment:
+      NODE_ENV: developement
+    ports:
+      - 3000:3000
